@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.img{
+    border-radius: 50%;
+}
+
+.calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    border: 1px solid gray;
+    padding: 15px;
+    min-width: 200px;
+    max-width: 500px;
+    margin: auto;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.calculator-a{
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+    padding: 13px;
+    border-radius: 20px;
+    background-color: white;
+    width: 15rem;
+
+}
+.calculator-a :hover{
+    background-color: red;
+}
+

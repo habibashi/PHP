@@ -1,0 +1,24 @@
+.register-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 100px;
+}
+.register-cont:active {
+    outline: none;
+}
+.username{
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+    width: 200px;
+    font-size: medium;
+    outline-color:greenyellow;
+
+}
+
+.color{
+    color: red;
+}
